@@ -1,0 +1,39 @@
+Cargar ruta: identificar en dónde nos encontramos en el sitio.
+
+Comparar la URL con ruta: La URL a la que nos queremos mover se debe comparar con las rutas que tenemos.
+
+Actualizar la URL en la barra de navegación: Para esto utilizaremos el metodo de HTML Push.State
+
+Actualizar el DOM con el nuevo contenido: Para esto vamos a usar innerHTML
+
+Full Relou: Que carge el sitio completamente esto lo puede volver lento y tedioso
+
+puedes tener un html y con JS llenar ese html cambiando hasta la ruta
+
+API: Aplication programin interface
+
+PushState: nos va a ayudar a tomar información para mostrarlo
+
+
+Vamos a estar trabajando con esto
+window.history
+Regresar
+window.history.back
+Adelante
+window.history.forward
+ir a alguna
+window.history.go
+Largo del historial
+window.history.length
+Laque ocuparemos
+window.history.pushState
+
+Con propiedades
+
+window.history.pushState({ data: 'Movimiento', 'Titulo', 'path' })
+
+La primer propiedad son los datos que queremos guardar
+
+la segunda es una propiedad de titulo
+
+la tercera se pasa la ruta a donde nos queremos mover, es la más importante
